@@ -11,6 +11,10 @@
 		AF2CCB3C2939170A00B368FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CCB3B2939170A00B368FF /* ContentView.swift */; };
 		AF2CCB3E2939170B00B368FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2CCB3D2939170B00B368FF /* Assets.xcassets */; };
 		AF2CCB412939170B00B368FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2CCB402939170B00B368FF /* Preview Assets.xcassets */; };
+		AF2CCB482939173200B368FF /* PuzzleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CCB472939173200B368FF /* PuzzleInput.swift */; };
+		AF2CCB4C293922E900B368FF /* PuzzleInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF2CCB4B293922E900B368FF /* PuzzleInput.txt */; };
+		AF2CCB4E293922F000B368FF /* PuzzleInputTEST.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF2CCB4D293922F000B368FF /* PuzzleInputTEST.txt */; };
+		AF2CCB52293A62D900B368FF /* ElfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2CCB51293A62D900B368FF /* ElfView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		AF2CCB3B2939170A00B368FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF2CCB3D2939170B00B368FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2CCB402939170B00B368FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF2CCB472939173200B368FF /* PuzzleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleInput.swift; sourceTree = "<group>"; };
+		AF2CCB4B293922E900B368FF /* PuzzleInput.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PuzzleInput.txt; sourceTree = "<group>"; };
+		AF2CCB4D293922F000B368FF /* PuzzleInputTEST.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PuzzleInputTEST.txt; sourceTree = "<group>"; };
+		AF2CCB51293A62D900B368FF /* ElfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElfView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,9 @@
 			children = (
 				AF2CCB392939170A00B368FF /* AOCDay01App.swift */,
 				AF2CCB3B2939170A00B368FF /* ContentView.swift */,
+				AF2CCB472939173200B368FF /* PuzzleInput.swift */,
+				AF2CCB51293A62D900B368FF /* ElfView.swift */,
+				AF2CCB4F293922FD00B368FF /* Resources */,
 				AF2CCB3D2939170B00B368FF /* Assets.xcassets */,
 				AF2CCB3F2939170B00B368FF /* Preview Content */,
 			);
@@ -65,6 +76,15 @@
 				AF2CCB402939170B00B368FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF2CCB4F293922FD00B368FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF2CCB4B293922E900B368FF /* PuzzleInput.txt */,
+				AF2CCB4D293922F000B368FF /* PuzzleInputTEST.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2CCB412939170B00B368FF /* Preview Assets.xcassets in Resources */,
+				AF2CCB4C293922E900B368FF /* PuzzleInput.txt in Resources */,
 				AF2CCB3E2939170B00B368FF /* Assets.xcassets in Resources */,
+				AF2CCB4E293922F000B368FF /* PuzzleInputTEST.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +161,8 @@
 			files = (
 				AF2CCB3C2939170A00B368FF /* ContentView.swift in Sources */,
 				AF2CCB3A2939170A00B368FF /* AOCDay01App.swift in Sources */,
+				AF2CCB52293A62D900B368FF /* ElfView.swift in Sources */,
+				AF2CCB482939173200B368FF /* PuzzleInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
